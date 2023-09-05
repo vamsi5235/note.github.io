@@ -8,7 +8,8 @@ function AddNote({handleAddNote}) {
  
     if(charLimit - event.target.value.length>=0){
         setNoteText(event.target.value)
- 
+    }
+    }
     const handleSaveClick =() =>{
    
         if(noteText.trim().length>0){
@@ -31,4 +32,4 @@ function AddNote({handleAddNote}) {
     )
 }
 
-export default AddNote
+export default AddNote;
